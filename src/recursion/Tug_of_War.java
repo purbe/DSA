@@ -43,6 +43,7 @@ public class Tug_of_War {
         arr1.add(2);
         arr1.add(4);
         arr1.add(6);
+
         System.out.println(tugOfWar(arr1, 3) + "");
     }
 
