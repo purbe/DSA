@@ -5,7 +5,6 @@ public class Sort_an_array_in_wave_form {
     public static int[] waveFormArray(int[] arr, int n) {
         // Write your code here.
 
-
         for (int i = 0; i < n; i += 2) {
             // Swap with the previous element if needed
             if (i > 0 && arr[i] < arr[i - 1]) {
